@@ -1,0 +1,2 @@
+exec'i=0;A=.9987;R=range;C=[ord(x)-1\12for x in"qppp~dp|zpy~pg~pczpadpdap\|ap~dpzdpztpvupvjprkprppnqpnlpjmpjwp\fxpfhpzdp~d"];D=lambda x,y:" E"[sum(\(F4]-y)*(F7]-y)<0and F5]-x>(F5]-F8])\*(F4]-y)/(F4]-F7])for j in R(22))&1]\\nwhile 1:\n r=2-i/140%2\n for j in \R(24):F0],Fr]=F0]*A-Fr]/20,F0]/20+Fr\]*A\n Z="\\n".join("".join(D(x*.4-20\,y*.91-20)for x in R(99))for y in R(\45));print"\x1b[2J\x1b[38;5;%d66m"%(\C[0]>0),Z;i+=1'.replace('F','C[j*3+')
+

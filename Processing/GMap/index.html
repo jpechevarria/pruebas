@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+  <script language="javascript" type="text/javascript" src="GMap.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style. 
+       You might only need one of these values set. -->
+  <style> 
+    body {padding: 0; margin: 0;} 
+  </style>
+</head>
+
+<body>
+    <div id="mapG" style="height: 300px; width: 300px"></div>
+    <script>
+      var mapG;
+      //var drawingManager;
+      function initMap() {
+        mapG = new google.maps.Map(document.getElementById('mapG'), {
+          center: {lat: -33.368122, lng: -60.154143},
+          mapTypeId: google.maps.MapTypeId.SATELLITE,
+          zoom: 17
+        });
+      }
+    </script>
+    <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=KEY&callback=initMap"></script>-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&callback=initMap"></script>
+</body>
+</html>
