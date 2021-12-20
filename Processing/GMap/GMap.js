@@ -2,7 +2,7 @@ angle = 0.01;
 markers = [];
 rotar = false;
 escalar = true;
-ladoMetros = 10000 * 1000;
+ladoMetros = 1 * 1000;
   
 function setup() {
   createMarkers();
@@ -12,7 +12,7 @@ function setup() {
 
 function createMarkers(){
     
-  var pC = new Coord( 0/*-33.368122*/, -60.154143);
+  var pC = new Coord( -33.368122, -60.154143);
   addMarker(pC, 'Centro', 1);
   
   var pO = moveCoord(pC,-ladoMetros/2,1);
